@@ -1,0 +1,149 @@
+{
+  "pins" : [
+    {
+      "identity" : "bits",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/Bits.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "bf60b26441a60f48651b1646e4c348b1b2d0b804"
+      }
+    },
+    {
+      "identity" : "chord",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/Chord",
+      "state" : {
+        "branch" : "main",
+        "revision" : "ab5237fbd0d0f02fb7d1c0ecf138aeb0b2ee7d9a"
+      }
+    },
+    {
+      "identity" : "datable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/Datable.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5fa6bedcbc9435238c93bba16363d1744a3ef813"
+      }
+    },
+    {
+      "identity" : "flower",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/Flower",
+      "state" : {
+        "branch" : "main",
+        "revision" : "156b7e39ef628fc032cc2ee998c1a7ce5e11b133"
+      }
+    },
+    {
+      "identity" : "internetprotocols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/InternetProtocols",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1249fca5b305b95cf7db4056b4360321b9197d4c"
+      }
+    },
+    {
+      "identity" : "net",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/Net.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1f2b5be69ca3bd9e1a4c5c4c393e5a8bfddafc21"
+      }
+    },
+    {
+      "identity" : "straw",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/Straw.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a7fee8ad79e88e3a6a152730a9947d5e842eb6e5"
+      }
+    },
+    {
+      "identity" : "swift-crypto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-crypto.git",
+      "state" : {
+        "revision" : "33a20e650c33f6d72d822d558333f2085effa3dc",
+        "version" : "2.5.0"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "32e8d724467f8fe623624570367e3d50c5638e46",
+        "version" : "1.5.2"
+      }
+    },
+    {
+      "identity" : "swifthextools",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/SwiftHexTools.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "3d4b5a925414481ff82fe53b9062560a269c2679"
+      }
+    },
+    {
+      "identity" : "swiftqueue",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/SwiftQueue",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5d59db6aa86b7e1b419c027af1a61f2572475538"
+      }
+    },
+    {
+      "identity" : "transmission",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/Transmission",
+      "state" : {
+        "branch" : "main",
+        "revision" : "765db4b7b710489af462e516a4c045f5ccc67183"
+      }
+    },
+    {
+      "identity" : "transmissionbase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/TransmissionBase",
+      "state" : {
+        "branch" : "main",
+        "revision" : "666fd3836282b96820bb50cd801c0d55ba463377"
+      }
+    },
+    {
+      "identity" : "transmissionmacos",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/TransmissionMacOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5b3ea7b93a53cb1a301c2907fa47012616c18053"
+      }
+    },
+    {
+      "identity" : "transmissiontypes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/TransmissionTypes.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "26ef78ebcd37c98aaa5d0f0f484e674a5f3343f9"
+      }
+    },
+    {
+      "identity" : "transport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OperatorFoundation/Transport",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6b8c0933859dfe6a4a5d93100c387279d12675b2"
+      }
+    }
+  ],
+  "version" : 2
+}

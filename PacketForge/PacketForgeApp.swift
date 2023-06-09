@@ -11,7 +11,7 @@ import SwiftUI
 struct PacketForgeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PacketForge()
         }
     }
 }

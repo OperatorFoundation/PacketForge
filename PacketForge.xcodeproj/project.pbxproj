@@ -8,18 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		DAA4BF582A33BFB600FDF786 /* PacketForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4BF572A33BFB600FDF786 /* PacketForgeApp.swift */; };
-		DAA4BF5A2A33BFB600FDF786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4BF592A33BFB600FDF786 /* ContentView.swift */; };
+		DAA4BF5A2A33BFB600FDF786 /* PacketForge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4BF592A33BFB600FDF786 /* PacketForge.swift */; };
 		DAA4BF5C2A33BFB800FDF786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA4BF5B2A33BFB800FDF786 /* Assets.xcassets */; };
 		DAA4BF5F2A33BFB800FDF786 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA4BF5E2A33BFB800FDF786 /* Preview Assets.xcassets */; };
+		DAA4BF6A2A33C06D00FDF786 /* InternetProtocols in Frameworks */ = {isa = PBXBuildFile; productRef = DAA4BF692A33C06D00FDF786 /* InternetProtocols */; };
+		DAA4BF6D2A33C09500FDF786 /* Flower in Frameworks */ = {isa = PBXBuildFile; productRef = DAA4BF6C2A33C09500FDF786 /* Flower */; };
+		DAA4BF702A33CECC00FDF786 /* Datable in Frameworks */ = {isa = PBXBuildFile; productRef = DAA4BF6F2A33CECC00FDF786 /* Datable */; };
+		DAA4BF722A33D75D00FDF786 /* Packet+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA4BF712A33D75D00FDF786 /* Packet+Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAA4BF542A33BFB600FDF786 /* PacketForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PacketForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA4BF572A33BFB600FDF786 /* PacketForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketForgeApp.swift; sourceTree = "<group>"; };
-		DAA4BF592A33BFB600FDF786 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAA4BF592A33BFB600FDF786 /* PacketForge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketForge.swift; sourceTree = "<group>"; };
 		DAA4BF5B2A33BFB800FDF786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA4BF5E2A33BFB800FDF786 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAA4BF602A33BFB800FDF786 /* PacketForge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PacketForge.entitlements; sourceTree = "<group>"; };
+		DAA4BF712A33D75D00FDF786 /* Packet+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Packet+Identifiable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +32,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA4BF702A33CECC00FDF786 /* Datable in Frameworks */,
+				DAA4BF6A2A33C06D00FDF786 /* InternetProtocols in Frameworks */,
+				DAA4BF6D2A33C09500FDF786 /* Flower in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DAA4BF572A33BFB600FDF786 /* PacketForgeApp.swift */,
-				DAA4BF592A33BFB600FDF786 /* ContentView.swift */,
+				DAA4BF592A33BFB600FDF786 /* PacketForge.swift */,
+				DAA4BF712A33D75D00FDF786 /* Packet+Identifiable.swift */,
 				DAA4BF5B2A33BFB800FDF786 /* Assets.xcassets */,
 				DAA4BF602A33BFB800FDF786 /* PacketForge.entitlements */,
 				DAA4BF5D2A33BFB800FDF786 /* Preview Content */,
@@ -85,6 +94,11 @@
 			dependencies = (
 			);
 			name = PacketForge;
+			packageProductDependencies = (
+				DAA4BF692A33C06D00FDF786 /* InternetProtocols */,
+				DAA4BF6C2A33C09500FDF786 /* Flower */,
+				DAA4BF6F2A33CECC00FDF786 /* Datable */,
+			);
 			productName = PacketForge;
 			productReference = DAA4BF542A33BFB600FDF786 /* PacketForge.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +127,11 @@
 				Base,
 			);
 			mainGroup = DAA4BF4B2A33BFB600FDF786;
+			packageReferences = (
+				DAA4BF682A33C06D00FDF786 /* XCRemoteSwiftPackageReference "InternetProtocols" */,
+				DAA4BF6B2A33C09500FDF786 /* XCRemoteSwiftPackageReference "Flower" */,
+				DAA4BF6E2A33CECC00FDF786 /* XCRemoteSwiftPackageReference "Datable" */,
+			);
 			productRefGroup = DAA4BF552A33BFB600FDF786 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,8 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAA4BF5A2A33BFB600FDF786 /* ContentView.swift in Sources */,
+				DAA4BF5A2A33BFB600FDF786 /* PacketForge.swift in Sources */,
 				DAA4BF582A33BFB600FDF786 /* PacketForgeApp.swift in Sources */,
+				DAA4BF722A33D75D00FDF786 /* Packet+Identifiable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +356,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAA4BF682A33C06D00FDF786 /* XCRemoteSwiftPackageReference "InternetProtocols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OperatorFoundation/InternetProtocols";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		DAA4BF6B2A33C09500FDF786 /* XCRemoteSwiftPackageReference "Flower" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OperatorFoundation/Flower";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		DAA4BF6E2A33CECC00FDF786 /* XCRemoteSwiftPackageReference "Datable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OperatorFoundation/Datable";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAA4BF692A33C06D00FDF786 /* InternetProtocols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA4BF682A33C06D00FDF786 /* XCRemoteSwiftPackageReference "InternetProtocols" */;
+			productName = InternetProtocols;
+		};
+		DAA4BF6C2A33C09500FDF786 /* Flower */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA4BF6B2A33C09500FDF786 /* XCRemoteSwiftPackageReference "Flower" */;
+			productName = Flower;
+		};
+		DAA4BF6F2A33CECC00FDF786 /* Datable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA4BF6E2A33CECC00FDF786 /* XCRemoteSwiftPackageReference "Datable" */;
+			productName = Datable;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DAA4BF4C2A33BFB600FDF786 /* Project object */;
 }
